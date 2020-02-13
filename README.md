@@ -9,8 +9,8 @@
 ### Horários / Local
 
 * Horários:
-  - **Segunda (09:50 - 11.30)** - Sala Info 13
-  - **Quinta (07.00 - 09.30)** - Sala Info 13
+  - **Segunda (09:50 - 11.30)** - Sala Info 1 (Mini Mac)
+  - **Quinta (07.00 - 09.30)** - Sala Info 1 (Mini Mac)
 
 ## Comunicação
 
