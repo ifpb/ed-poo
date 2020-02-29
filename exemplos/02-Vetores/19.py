@@ -20,5 +20,8 @@ for n in numeros:
     else:
         impares.append(n)
 
-print("Pares = ", pares)
-print("Impares = ", impares)
+print("Pares = ")
+for i in range(len(pares)-1):
+    print(pares[i], end=" ")
+    if i % 2 != 0:
+        print("")

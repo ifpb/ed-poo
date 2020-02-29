@@ -5,13 +5,15 @@ for i in range(10):
     vetor.append(entrada)
 
 contem_duplicado = False
+duplicados = set([])
 
 for i in range(0,len(vetor)):
     for j in range(i+1,len(vetor)):
         if vetor[i] == vetor[j]:
             contem_duplicado = True
+            duplicados.add(vetor[i])
 
 if contem_duplicado:
-    print("Contém duplicado")
+    print("Contém duplicados: ", duplicados)
 else:
     print("Não contém duplicado")

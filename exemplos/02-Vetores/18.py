@@ -6,9 +6,10 @@ vetor = input("Digite 10 números separados por espaço: ").split(" ")
 
 x = int(input("Digite o número que deseja contar os múltiplos: "))
 
-multiplos = 0
+multiplos = []
 for item in vetor:
     if int(item) % x == 0:
-        multiplos += 1
+        multiplos.append(item)
 
-print(f"Total de múltiplos de {x}: {multiplos}")
+print(f"Total de múltiplos de {x}: {len(multiplos)}")
+print(f"Múltiplos de {x}: {multiplos}")

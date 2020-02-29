@@ -6,7 +6,6 @@ if len(a) != 10 and len(b) != 10:
     exit(1)
 
 c = []
-
 for i in range(0,len(a)):
     c.append(int(a[i]) - int(b[i]))
 

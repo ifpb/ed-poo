@@ -10,8 +10,8 @@ if len(a) != 10 and len(b) != 10:
     print("Precisa digitar 10 itens para cada")
     exit(1)
 
-aluno_mais_alto = 0
-aluno_mais_baixo = 0
+aluno_mais_alto = a[0]
+aluno_mais_baixo = a[0]
 maior_altura = float(b[0])
 menor_altura = float(b[0])
 
