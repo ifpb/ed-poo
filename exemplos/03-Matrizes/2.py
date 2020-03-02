@@ -8,6 +8,8 @@ for linha in range(len(matriz)):
     for coluna in range(len(matriz[linha])):
         if linha == coluna:
             matriz[linha][coluna] = 0
+        else:
+            matriz[linha][coluna] = 1
 
 for linha in matriz:
     print(linha)
