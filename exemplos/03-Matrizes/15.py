@@ -4,7 +4,7 @@ for i in range(10):
 
 respostas = []
 matriz_resultado = []
-for linha in range(5):
+for linha in range(3):
     print(f"Aluno {linha + 1}")
     matriz_linha = [input("Digite matricula: ")]
     nota = 0
@@ -30,6 +30,6 @@ for linha in range(len(matriz_resultado)):
     if nota > 7:
         aprovados += 1
 
-print("Percentual de aprovados = ", aprovados * 100 / 5, "%")
+print("Percentual de aprovados = ", aprovados * 100 / 3, "%")
 
 
